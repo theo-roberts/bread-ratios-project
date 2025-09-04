@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+.main{
+    display: inline-grid;
+    grid-template: 150px / 500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.userInputs{
+    display: inline-grid;
+    grid-template: 50px  / 250px 250px;
+}
+
+.amounts{
+    display: inline-grid;
+    grid-template: 100px 100px / 250px 250px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.ingredients{
+    border-style: solid;
+}
